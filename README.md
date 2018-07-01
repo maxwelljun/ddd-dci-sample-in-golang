@@ -1,3 +1,3 @@
-# ddd-sample-in-golang
+# ddd-dci-sample-in-golang
 
-ddd sample
+ddd and dci sample
