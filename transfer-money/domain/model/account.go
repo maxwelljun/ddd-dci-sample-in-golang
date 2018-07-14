@@ -1,6 +1,6 @@
 package model
 
-import "github.com/agiledragon/ddd-sample-in-golang/cargo/domain/model/base"
+import "github.com/agiledragon/ddd-dci-sample-in-golang/transfer-money/domain/model/base"
 
 type Account struct {
 	base.AggregateRoot

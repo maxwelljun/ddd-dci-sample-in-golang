@@ -8,7 +8,7 @@ func NewEntity(id string) Entity {
 	return Entity{id: id}
 }
 
-func (t *Entity) GetId() string {
+func (t *Entity) Id() string {
 	return t.id
 }
 

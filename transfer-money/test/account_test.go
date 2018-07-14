@@ -23,7 +23,7 @@ type FakeAccountRepo struct {
 }
 
 func (a *FakeAccountRepo) Add(account *model.Account) {
-	a.accounts[account.GetId()] = account
+	a.accounts[account.Id()] = account
 }
 
 func (a *FakeAccountRepo) Get(accountId string) *model.Account {
